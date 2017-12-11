@@ -9,3 +9,7 @@ Vous devez avoir préalablement installé Python sur votre poste. Il est recomma
 Ensuite, clonez ce répertoire en exécutant `git clone https://github.com/samuelduchesne/SeminairePython.git` depuis le terminal ou bien en utilisant l’application [GitHub Desktop](https://desktop.github.com).
 
 Dans le terminal, lancez Jupyter avec la commande `jupyter notebook`. Une fenêtre de votre navigateur internet s’ouvrira. Naviguez jusqu’au répertoire du séminaire tout juste téléchargé. Cliquez sur l’un des carnets (extension `.ipynb`).
+
+### Dépendances
+
+Le code inclu dans le répertoire `pysurfrad` dépend de la librairie [pvlib](http://pvlib-python.readthedocs.io/en/latest/index.html). Installez-la avec la commande `conda install -c pvlib pvlib`.
